@@ -6,16 +6,6 @@ import backtype.storm.topology.base.BaseBasicBolt;
 import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Tuple;
 
-/**
- * @Author: blogchong
- * @Blog: www.blogchong.com
- *  @米特吧大数据论坛　www.mite8.com
- * @Mailbox: blogchong@163.com
- * @QQGroup: 191321336
- * @Weixin: blogchong
- * @Data: 2015/4/7
- * @Describe: 打印接受的数据
- */
 
 @SuppressWarnings("serial")
 public class PrintBolt extends BaseBasicBolt {

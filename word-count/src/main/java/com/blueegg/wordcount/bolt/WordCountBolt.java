@@ -13,16 +13,6 @@ import com.blueegg.wordcount.util.MapSort;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author: blogchong
- * @Blog: www.blogchong.com
- * @米特吧大数据论坛　www.mite8.com
- * @Mailbox: blogchong@163.com
- * @QQGroup: 191321336
- * @Weixin: blogchong
- * @Data: 2015/4/7
- * @Describe: 单词统计，并且实时获取词频前N的发射出去
- */
 
 @SuppressWarnings("serial")
 public class WordCountBolt implements IRichBolt {

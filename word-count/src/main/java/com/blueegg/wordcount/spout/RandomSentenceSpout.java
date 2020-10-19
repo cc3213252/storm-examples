@@ -11,16 +11,6 @@ import backtype.storm.utils.Utils;
 import java.util.Map;
 import java.util.Random;
 
-/**
- * @Author: blogchong
- * @Blog: www.blogchong.com
- * @米特吧大数据论坛　www.mite8.com
- * @Mailbox: blogchong@163.com
- * @QQGroup: 191321336
- * @Weixin: blogchong
- * @Data: 2015/4/7
- * @Describe: 内存中随机选取待定的英文语句，作为源发射出去
- */
 
 // 随机发送一条内置消息，该spout继承BaseRichSpout/IRichSpout类
 @SuppressWarnings("serial")
@@ -47,15 +37,15 @@ public class RandomSentenceSpout extends BaseRichSpout {
                 "storm hadoop spark hbase",
                 "blogchong is a good man",
                 "Would make my whole world bright",
-                "blogchong is a good website",
+                "blueegg is a good website",
                 "storm would have to be with you",
                 "Pipe to subprocess seems to be broken No output read",
                 " You make me feel so happy",
                 "For the moon never beams without bringing me dreams Of the beautiful Annalbel Lee",
                 "Who love jikexueyuan and blogchong",
-                "blogchong.com is Magic sites",
-                "Ko blogchong swayed my leaves and flowers in the sun",
-                "You love blogchong.com", "Now I may wither into the truth",
+                "blueegg.com is Magic sites",
+                "Ko blueegg swayed my leaves and flowers in the sun",
+                "You love blueegg.com", "Now I may wither into the truth",
                 "That the wind came out of the cloud",
                 "at backtype storm utils ShellProcess",
                 "Of those who were older than we"};

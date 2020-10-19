@@ -10,6 +10,7 @@ import backtype.storm.LocalCluster;
 import backtype.storm.StormSubmitter;
 import backtype.storm.topology.TopologyBuilder;
 
+
 public class WordCountTopology {
 
 	private static TopologyBuilder builder = new TopologyBuilder();

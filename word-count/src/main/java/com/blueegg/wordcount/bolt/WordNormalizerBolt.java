@@ -10,16 +10,6 @@ import backtype.storm.tuple.Values;
 
 import java.util.Map;
 
-/**
- * @Author: blogchong
- * @Blog: www.blogchong.com
- * @米特吧大数据论坛　www.mite8.com
- * @Mailbox: blogchong@163.com
- * @QQGroup: 191321336
- * @Weixin: blogchong
- * @Data: 2015/4/7
- * @Describe: 消息标准化处理
- */
 
 //将消息标准化，
 @SuppressWarnings("serial")
