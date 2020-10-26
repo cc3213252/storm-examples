@@ -1,10 +1,10 @@
-package com.blueegg.wordcount;
+package com.blueegg.wordcount092;
 
 import backtype.storm.tuple.Fields;
-import com.blueegg.wordcount.bolt.PrintBolt;
-import com.blueegg.wordcount.bolt.WordCountBolt;
-import com.blueegg.wordcount.bolt.WordNormalizerBolt;
-import com.blueegg.wordcount.spout.RandomSentenceSpout;
+import com.blueegg.wordcount092.bolt.PrintBolt;
+import com.blueegg.wordcount092.bolt.WordCountBolt;
+import com.blueegg.wordcount092.bolt.WordNormalizerBolt;
+import com.blueegg.wordcount092.spout.RandomSentenceSpout;
 import backtype.storm.Config;
 import backtype.storm.LocalCluster;
 import backtype.storm.StormSubmitter;

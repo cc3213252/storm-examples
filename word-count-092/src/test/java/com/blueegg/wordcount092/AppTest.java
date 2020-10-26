@@ -1,4 +1,4 @@
-package com.blueegg.wordcount;
+package com.blueegg.wordcount092;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

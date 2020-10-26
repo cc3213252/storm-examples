@@ -1,4 +1,4 @@
-package com.blueegg.wordcount.bolt;
+package com.blueegg.wordcount092.bolt;
 
 import backtype.storm.task.OutputCollector;
 import backtype.storm.task.TopologyContext;
@@ -8,7 +8,7 @@ import backtype.storm.tuple.Fields;
 import backtype.storm.tuple.Tuple;
 import backtype.storm.tuple.Values;
 
-import com.blueegg.wordcount.util.MapSort;
+import com.blueegg.wordcount092.util.MapSort;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,7 +37,7 @@ public class WordCountBolt implements IRichBolt {
             counters.put(str, c);
         }
 
-        //我们只取词频最大的前十个
+        //我们只取词频最大的前8个
         int num = 8;
         int length = 0;
 

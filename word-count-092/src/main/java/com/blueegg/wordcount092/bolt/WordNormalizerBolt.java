@@ -1,4 +1,4 @@
-package com.blueegg.wordcount.bolt;
+package com.blueegg.wordcount092.bolt;
 
 import backtype.storm.task.OutputCollector;
 import backtype.storm.task.TopologyContext;
@@ -44,6 +44,7 @@ public class WordNormalizerBolt implements IRichBolt {
         declarer.declare(new Fields("word"));
     }
 
+    // 需要修改配置时要动这个方法
     public Map<String, Object> getComponentConfiguration() {
         return null;
     }

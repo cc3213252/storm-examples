@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.blueegg</groupId>
-	<artifactId>word-count</artifactId>
+	<artifactId>word-count-092</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>word-count</name>
+	<name>word-count-092</name>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -20,7 +20,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.blueegg.wordcount.WordCountTopology</mainClass>
+							<mainClass>com.blueegg.wordcount092.WordCountTopology</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>

@@ -1,4 +1,4 @@
-package com.blueegg.wordcount.bolt;
+package com.blueegg.wordcount092.bolt;
 
 import backtype.storm.topology.BasicOutputCollector;
 import backtype.storm.topology.OutputFieldsDeclarer;

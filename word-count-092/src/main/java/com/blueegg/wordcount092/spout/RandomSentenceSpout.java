@@ -1,4 +1,4 @@
-package com.blueegg.wordcount.spout;
+package com.blueegg.wordcount092.spout;
 
 import backtype.storm.spout.SpoutOutputCollector;
 import backtype.storm.task.TopologyContext;
@@ -42,7 +42,7 @@ public class RandomSentenceSpout extends BaseRichSpout {
                 "Pipe to subprocess seems to be broken No output read",
                 " You make me feel so happy",
                 "For the moon never beams without bringing me dreams Of the beautiful Annalbel Lee",
-                "Who love jikexueyuan and blogchong",
+                "Who love jikexueyuan and blueegg",
                 "blueegg.com is Magic sites",
                 "Ko blueegg swayed my leaves and flowers in the sun",
                 "You love blueegg.com", "Now I may wither into the truth",
